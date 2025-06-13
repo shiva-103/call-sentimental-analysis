@@ -16,9 +16,9 @@ from autogen import ConversableAgent, UserProxyAgent
 
 # API keys and configuration
 aai.settings.api_key = st.secrets['AAI_API']
-EMAIL_ADDRESS = "lukkashivacharan@gmail.com"
-EMAIL_PASSWORD = "trgy ujlb zbdz bupo"
-GROQ_API_KEY = "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"
+EMAIL_ADDRESS = st.secrets['EMAIL_USER']
+EMAIL_PASSWORD = st.secrets['EMAIL_PASSWORD']
+GROQ_API_KEY = st.secrets['GROQ_API_KEY']
 GROQ_MODEL = "llama3-8b-8192"
 
 # Configure Groq LLM for Autogen
